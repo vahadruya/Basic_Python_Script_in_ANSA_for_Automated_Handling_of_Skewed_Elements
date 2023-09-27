@@ -48,7 +48,8 @@ The methods utilised for the script involve a sequence of the above functions, i
 
 ## Results
 
-Comment
+- Three test-models were utilized for executing this script. There's a significant improvement in time, as well as removal of all skewed elements.
+- Nevertheless, there are places where the **Fix Quality** method performed poorly compared to **Reconstruct** method. No pattern could be discerned as to where all this method works worse, hence could not implement it in the script.
 
 | Metric | Model 1 | Model 2 | Model 3 |
 | :--- |    :----:   | :----: | :---: |
@@ -65,7 +66,10 @@ Comment
 
 ## Conclusions
 
-
+- Much faster, more efficient solutions
+- Requires an FE model input for quality execution of the script
+- Currently run only for FLUENT solver deck, and only removes skewness. Can be extended to include various other criteria.
+- One major disadvantage is the script cannot identify areas of crucial importance, and hence naturally treats all skewed elements liberally and equally. Some areas may require less or no feature distortion, and these need to be handled manually.
 
 <div align = "right">    
   <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
@@ -73,9 +77,11 @@ Comment
 
 ## Libraries Used
 
-OS, ANSA, MESH, BASE, CONSTANTS
-
-<a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-black?style=flat-square&logo=Pandas&logoColor=white&link=https://pandas.pydata.org" alt="Pandas" width="84" height="25"></a>
+<a href="https://www.ansa-usa.com/services/training/scripting-with-ansa/" target="_blank"><img src="https://img.shields.io/badge/OS-0e62a8?style=flat-square&logo=ANSA&logoColor=white&link=https://www.ansa-usa.com/services/training/scripting-with-ansa/" alt="OS" width="30" height="25"></a>
+<a href="https://www.ansa-usa.com/services/training/scripting-with-ansa/" target="_blank"><img src="https://img.shields.io/badge/ANSA-0e62a8?style=flat-square&logo=OS&logoColor=white&link=https://www.ansa-usa.com/services/training/scripting-with-ansa/" alt="OS" width="50" height="25"></a>
+<a href="https://www.ansa-usa.com/services/training/scripting-with-ansa/" target="_blank"><img src="https://img.shields.io/badge/Mesh-0e62a8?style=flat-square&logo=OS&logoColor=white&link=https://www.ansa-usa.com/services/training/scripting-with-ansa/" alt="OS" width="50" height="25"></a>
+<a href="https://www.ansa-usa.com/services/training/scripting-with-ansa/" target="_blank"><img src="https://img.shields.io/badge/Base-0e62a8?style=flat-square&logo=OS&logoColor=white&link=https://www.ansa-usa.com/services/training/scripting-with-ansa/" alt="OS" width="50" height="25"></a>
+<a href="https://www.ansa-usa.com/services/training/scripting-with-ansa/" target="_blank"><img src="https://img.shields.io/badge/Constants-0e62a8?style=flat-square&logo=OS&logoColor=white&link=https://www.ansa-usa.com/services/training/scripting-with-ansa/" alt="OS" width="80" height="25"></a>
 
 <div align = "right">    
   <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
