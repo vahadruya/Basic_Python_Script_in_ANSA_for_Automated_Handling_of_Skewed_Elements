@@ -53,7 +53,7 @@ Comment
 | Metric | Model 1 | Model 2 | Model 3 |
 | :--- |    :----:   | :----: | :---: |
 | Total initial skewness | 335 | 225 | 903 |
-| Total element count in model | x | x | x |
+| Total element count in model | 216626 | 30564 |.|
 | Total skewness after executing script| 0 | 0 | 0 |
 | Total skewness after Improve Algorithm (Expand Level 1) | 1 | 0 | 20 |
 | Total time taken for running script | 1.4s | 0.3s | 12.7s |
