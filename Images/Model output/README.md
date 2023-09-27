@@ -4,6 +4,6 @@ Ma_b.c.jpg
 
 - a - Model number
 
-- b - Instance (within model) number
+- b - Example instance (within model) number
 
 - c - 1 = Before Script, 2 = After Script
