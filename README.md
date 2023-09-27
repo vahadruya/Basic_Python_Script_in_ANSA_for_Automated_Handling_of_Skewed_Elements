@@ -18,7 +18,7 @@ This study focuses on an automated removal of skewed surface mesh elements using
 - General comparison of the same with the default in-built functions within the ANSA GUI
 
 <div align = "right">    
-  <a href="#global-terrorism-analysis">(back to top)</a>
+  <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
 </div>
 
 ## Background
@@ -43,7 +43,7 @@ The characteristics of **Fix Quality** and **Reconstruct** are as follows:
 The methods utilised for the script involve a sequence of the above functions, in an ascending order of risk of geometry modification, i.e., the **Fix Quality** function is executed first, followed by **Reconstruct** of increasing **Expand Level** (starting from zero) which works on the skewed elements remaining after the **Fix QUality** function. This ensures that there is minimal modification of the geometrical topology, while maintaining a good degree of accuracy for skewed element removal.
 
 <div align = "right">    
-  <a href="#global-terrorism-analysis">(back to top)</a>
+  <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
 </div>
 
 ## Results
@@ -60,16 +60,15 @@ Comment
 | Approx. time for manual removal of skewness | 30min | 20min | 60min |
 
 <div align = "right">    
-  <a href="#global-terrorism-analysis">(back to top)</a>
+  <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
 </div>
-
 
 ## Conclusions
 
 
 
 <div align = "right">    
-  <a href="#global-terrorism-analysis">(back to top)</a>
+  <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
 </div>
 
 ## Libraries Used
@@ -79,7 +78,7 @@ OS, ANSA, MESH, BASE, CONSTANTS
 <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-black?style=flat-square&logo=Pandas&logoColor=white&link=https://pandas.pydata.org" alt="Pandas" width="84" height="25"></a>
 
 <div align = "right">    
-  <a href="#global-terrorism-analysis">(back to top)</a>
+  <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
 </div>
 
 
@@ -89,7 +88,6 @@ OS, ANSA, MESH, BASE, CONSTANTS
 <a href="mailto:apaditya96@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-red?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail" width="70" height="25"></a>
   
 <div align = "right">    
-  <a href="#global-terrorism-analysis">(back to top)</a>
+  <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
 </div>
-
 
