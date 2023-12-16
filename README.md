@@ -28,19 +28,10 @@ In ANSA, there are two primary classes of in-built functions used to rectify the
 - Manual removal (using Cut, Join, Paste etc)
 - Reconstruction, Fix Quality, Remeshing etc. methods which resolve at bulk
 
-The developed script focuses on an intelligent combination of the methods present in the latter class - particularly **Fix Quality** and **Reconstruct**. Hence, it is to be noted that, the script is not absolute and various other methods (developed for various other combinations of the ANSA functions) can be developed for quality removal.
-
 ## Script Approach
-The characteristics of **Fix Quality** and **Reconstruct** are as follows:
-- **Fix Quality**
-  - Least impact on feature modification
-  - Lesser improvement power
-  - Does not change the total count of elements
-- **Reconstruct**
-  - Superior improvement power
-  - Greater the **Expand Level**, better the mesh improvement power, but consequently greater geometry distortion
+The developed script focuses on an intelligent combination of the methods present in the latter class. For example, the combination can comprise a simple logic of an arrangement of the **Fix Quality** and **Reconstruct** methods in an order of ascending risk of geometry modification (the characteristics of the same two functions can be studied in the ANSA documentations), which ensures a minimal modification of the geometrical topology while maintaining a good degree of accuracy for skewed element removal. 
 
-The methods utilised for the script involve a sequence of the above functions, in an ascending order of risk of geometry modification, i.e., the **Fix Quality** function is executed first, followed by **Reconstruct** of increasing **Expand Level** (starting from zero) which works on the skewed elements remaining after the **Fix QUality** function. This ensures that there is minimal modification of the geometrical topology, while maintaining a good degree of accuracy for skewed element removal.
+Hence, it is to be noted that, the script is not absolute and various other methods (developed for various other combinations of the ANSA functions) can be developed for quality removal. For demonstration, the aforestated example shall be utilized.
 
 <div align = "right">    
   <a href="#basic-python-script-in-ansa-for-automated-handling-of-skewed-surface-mesh-elements">(back to top)</a>
